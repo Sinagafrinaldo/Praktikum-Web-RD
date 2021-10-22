@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label for="switch">Select theme:</label>
+    <select  id="switch" onchange="ubah(this)" style="height: fit-content; width: fit-content;">
+        <option value="theme-light">Light</option>
+        <option value="theme-dark" >Dark</option>
+        <option value="theme-brown" >Chocolate</option>
+        <option value="theme-blue" >Blue</option>
+        <option value="theme-green" >Green</option>
+    </select>
+    <h2>This is my website</h2>
+    <label for="switch">Select the weather type today:</label>
+    <select  id="switch" onchange="cuacanya(this)" style="height: fit-content; width: fit-content;">
+        <option value="">--Make a choice--</option>
+        <option value="sunny">Sunny</option>
+        <option value="rainy" >Rainy</option>
+        <option value="snowing" >Snowing</option>
+        <option value="overcast" >Overcast</option> 
+    </select>
+    <div id="weather"></div>
+    <br>
+    <form >
+        <label>Input number:</label>
+        <input type="text" id="angka">
+        <input type="button" value="Get Factorial" onclick="jawaban()">
+    </form>
+    <div id="fact"></div>
+    <script src="script.js"></script>
+</body>
+</html>
