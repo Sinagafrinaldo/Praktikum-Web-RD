@@ -1,0 +1,75 @@
+html{
+	background-color: lightblue;
+}
+*{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+	background-color: #efcf92;
+	margin-left: 50px;
+	margin-right: 50px;
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	left: 0%;
+}
+
+button {
+  background-color: #2AAD23;
+  border-width: 0;
+}
+.edit{
+	background-color: #6F9CDE;
+  	border-radius: 5px;
+  	border-width: 0;
+}
+.hapus{
+	background-color: #fe243d;
+  	border-radius: 5px;
+  	border-width: 0;
+}
+label {
+    width:180px;
+    clear:left;
+    text-align:left;
+    padding-right:10px;
+}
+
+input, label {
+    float:left;
+}
+table{
+	border-color: green;
+}
+th{
+	background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+tr:nth-of-type(even){
+	border-bottom: 2px solid #dddddd;
+	background-color: #f3f3f3;
+}
+tr{
+	border-bottom: 2px solid #dddddd;
+	background-color: lightgrey;
+}
+td{
+	padding: 5px;
+}
+footer.footer {
+    height: 50px;
+    width: 100%;
+    position: flex;
+    bottom: 0%;
+    background-color: #333333;
+}
+
+p.copyright {
+	text-align: center;
+    color: #fff;
+    line-height: 20px;
+    font-size: 0.8em;
+
+}
