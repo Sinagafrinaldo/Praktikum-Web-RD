@@ -1,0 +1,14 @@
+html{
+	background-color: lightgrey;
+}
+body{
+	font-family: cambria;
+	margin-right: 200px;
+	margin-left: 200px;
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(217,110,2,0.10688025210084029) 100%);
+}
+h2{
+	color: orange;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
+}
