@@ -1,0 +1,25 @@
+thead th{
+	background-color: #006DCC;
+	color: white;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+label {
+    width:180px;
+    clear:left;
+    text-align:left;
+    padding-right:10px;
+}
+input, label {
+    float:left;
+}
+.btn2{
+	position: relative;
+	left: 485px;
+	width: 82px;
+}
