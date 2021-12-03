@@ -20,3 +20,11 @@ jangan lupa tambahkan hasil screenshoot web di dalam file
 Nama  : Frinaldo Sinaga
 <br>
 NIM   :119140064
+
+Modifikasi program yang dilakukan:
+1. Menambah fitur sapa user
+2. Memanggil script js secara eksternal
+3. Memanggil style css secara eksternal
+4. Melengkapi task yang ada pada modul
+5. Menambah fitur logout
+6. Menambah kodingan css untuk memperindah tampila
